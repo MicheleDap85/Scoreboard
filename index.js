@@ -84,6 +84,8 @@ let totalSeconds = 12 * 60;   // 12 minuti in secondi
     let sound = new Audio("buzzer.mp3");
         sound.play();
     document.getElementById("period").innerText = "1"
+    document.getElementById("home").innerText = "0"
+    document.getElementById("guest").innerText = "0"
   }
 
   updateDisplay();

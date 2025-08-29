@@ -83,6 +83,20 @@ let totalSeconds = 12 * 60;   // 12 minuti in secondi
     updateDisplay();
     let sound = new Audio("buzzer.mp3");
         sound.play();
+    document.getElementById("period").innerText = "1"
   }
 
   updateDisplay();
+
+  
+  function periodTwo(){
+    document.getElementById("period").innerText = "2"
+  }
+
+  function periodThree(){
+    document.getElementById("period").innerText = "3"
+  }
+
+  function periodFour(){
+    document.getElementById("period").innerText = "4"
+  }
